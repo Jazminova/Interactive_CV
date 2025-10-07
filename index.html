@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jazmin Retana - CV</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    none;
+    }
+    .toggle {
+      cursor: pointer;
+      color: #004080;
+      font-weight: bold;
+    }
+    .content {
+      display: none;
+      margin-top: 10px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+  </style>
+  <script>
+    function toggleContent(id) {
+      const content = document.getElementById(id);
+      content.style.display = content.style.display === 'block' ? 'none' : 'block';
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h1>Jazmin Retana</h1>
+    <h2>Senior Advisor, Finance Operations – Dell Technologies</h2>
+    <p class="contact">
+      📧 mailto:jazmin.retana@email.comjazmin.retana@email.com</a><br/>
+      📞 tel:+5212345678901+52 1 234 567 8901</a><br/>
+      🔗 https://linkedin.com/in/jazminretanaLinkedIn Profile</a>
+    </p>
+
+    <h2>Professional Summary</h2>
+    <p>
+      Strategic and results-driven finance professional with over 12 years of experience in financial operations, business planning, and process optimization. Proven expertise in developing and standardizing financial processes, supporting strategic business units, and delivering actionable insights to drive business performance.
+    </p>
+
+    <h2 class="toggle" onclick="toggleContent('strengths')">▶ Key Strengths</h2>
+    <div class="content" id="strengths">
+      <ul>
+        <li><strong>Relationships:</strong> Collaborate with teams to ensure financial accuracy and communicate goals effectively.</li>
+        <li><strong>Business Partnership:</strong> Optimize workflows to improve efficiency and free up time for strategic tasks.</li>
+        <li><strong>Financial Acumen & Controllership:</strong> 12+ years of experience using data to influence decisions and drive business outcomes.</li>
+      </ul>
+    </div>
+
+    <h2 class="toggle" onclick="toggleContent('experience')">▶ Professional Experience</h2>
+    <div class="content" id="experience">
+      <h3>Dell Technologies</h3>
+      <ul>
+        <li><strong>Senior Advisor, DT Services</strong> (02/2022 – Present): Led planning/reporting for $23B RPY overlays; aligned with BU & FP&A teams.</li>
+        <li><strong>Advisor, DT Services</strong> (09/2020 – 02/2022): Managed $110M sales commission accrual; built new SCP model for accuracy.</li>
+        <li><strong>Maternity Leave</strong> (01/2019 – 09/2020)</li>
+        <li><strong>Advisor, DT Services</strong> (01/2018 – 01/2019): Analyzed $470M Opex, $22M COGS, 34K HC; maintained 4K cost centers.</li>
+      </ul>
+      <h3>Prior Roles</h3>
+      <ul>
+        <li><strong>Financial Analyst, Adient</strong> (10/2014 – 08/2017): Managed receivables for Chrysler, VW, Ford NA; resolved deductions.</li>
+        <li><strong>Accountant, Johnson Controls</strong> (03/2013 – 10/2014): Ensured accurate cash allocation and payment analysis.</li>
+      </ul>
+    </div>
+
+    <h2 class="toggle" onclick="toggleContent('skills')">▶ Skills</h2>
+    <div class="content" id="skills">
+      <ul>
+        <li>Financial Planning & Analysis</li>
+        <li>Strategic Business Support</li>
+        <li>Forecasting & Budgeting</li>
+        <li>Process Improvement</li>
+        <li>Cross-functional Collaboration</li>
+        <li>Reporting & Analytics</li>
+        <li>Stakeholder Management</li>
+      </ul>
+    </div>
+
+    <h2 class="toggle" onclick="toggleContent('development')">▶ Development & Certifications</h2>
+    <div class="content" id="development">
+      <ul>
+        <li>Six Sigma Yellow Belt (Adient) – March 2017</li>
+        <li>CFO Planning & Prioritizing Workshop</li>
+        <li>Presentation Skills Workshop</li>
+        <li>Excel, AI Zoom, MS Teams, Outlook & Copilot Webinar</li>
+      </ul>
+    </div>
+
+    <h2 class="toggle" onclick="toggleContent('goals')">▶ Development Goals</h2>
+    <div class="content" id="goals">
+      <ul>
+        <li><strong>Storytelling:</strong> Leverage Power BI/AI to present clear, strategic data insights.</li>
+        <li><strong>Networking:</strong> Expand presence in FP&A and Finance through collaboration and knowledge sharing.</li>
+        <li><strong>Next Steps:</strong> Develop Power BI for overlays (12 months); Join FRP program (2–4 years).</li>
+      </ul>
+    </div>
+
+    <h2 class="toggle" onclick="toggleContent('brand')">▶ My Brand</h2>
+    <div class="content" id="brand">
+      <p><em>"Opportunities don't happen. You create them through <strong>relationships</strong>."</em></p>
+    </div>
+  </div>
+</body>
+</html>
